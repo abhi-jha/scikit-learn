@@ -346,6 +346,7 @@ html_additional_pages = {"index": "index.html"}
 html_js_files = [
     "scripts/dropdown.js",
     "scripts/version-switcher.js",
+    "scripts/sg_plotly_resize.js",
 ]
 
 # Compile scss files into css files using sphinxcontrib-sass
@@ -487,6 +488,9 @@ redirects = {
     ),
     "auto_examples/datasets/plot_iris_dataset": (
         "auto_examples/decomposition/plot_pca_iris"
+    ),
+    "auto_examples/linear_model/plot_iris_logistic": (
+        "auto_examples/linear_model/plot_logistic_multinomial"
     ),
     "auto_examples/linear_model/plot_ols_3d": ("auto_examples/linear_model/plot_ols"),
 }
